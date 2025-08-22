@@ -1,0 +1,88 @@
+/* Estilos básicos para todas as páginas */
+body {
+    /* Define a fonte padrão para todo o corpo da página. */
+    font-family: Arial, sans-serif;
+    /* Remove as margens e preenchimentos padrão do navegador. */
+    margin: 0;
+    padding: 0;
+    /* Define a cor de fundo da página. */
+    background-color: #f5f5f5;
+}
+
+/* .main-container é a 'caixa' principal que contém todo o conteúdo visível. */
+.main-container {
+    /* Garante que o contêiner ocupe 100% da largura disponível. */
+    width: 100%;
+    /* Limita a largura máxima para que o conteúdo não se espalhe demais em telas grandes. */
+    max-width: 800px;
+    /* Centraliza a div na página horizontalmente, definindo margens automáticas à esquerda e direita. */
+    margin: 20px auto;
+    /* Define a cor de fundo branca para a caixa principal. */
+    background: white;
+    /* Adiciona uma sombra suave para criar um efeito de elevação. */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Estilos para a barra de menu. */
+.menu {
+    /* Define a cor de fundo do menu. */
+    background: #2c3e50;
+    /* Adiciona um preenchimento interno para dar espaço. */
+    padding: 10px;
+    /* Centraliza o texto e os links dentro do menu. */
+    text-align: center;
+}
+
+/* Estilos para os links dentro do menu. */
+.menu a {
+    /* Faz com que os links se comportem como blocos, permitindo que eles tenham altura e largura. */
+    display: inline-block;
+    /* Adiciona preenchimento interno aos links para aumentar a área clicável. */
+    padding: 8px 15px;
+    /* Adiciona uma pequena margem horizontal entre os links. */
+    margin: 0 5px;
+    /* Define a cor de fundo dos botões do menu. */
+    background: #3498db;
+    /* Define a cor do texto como branco. */
+    color: white;
+    /* Remove a linha de sublinhado padrão dos links. */
+    text-decoration: none;
+    /* Arredonda os cantos dos botões. */
+    border-radius: 4px;
+    /* Deixa o texto dos links em negrito. */
+    font-weight: bold;
+}
+
+/* Estilos para os links do menu quando o mouse passa por cima. */
+.menu a:hover {
+    /* Altera a cor de fundo para criar um efeito visual de interação. */
+    background: #2980b9;
+}
+
+/* Estilos para o conteúdo principal da página. */
+.content {
+    /* Adiciona um preenchimento interno para dar espaço ao redor do conteúdo. */
+    padding: 20px;
+}
+
+/* Estilos para o título principal (h1). */
+h1 {
+    /* Define a cor do título. */
+    color: #2c3e50;
+    /* Adiciona uma linha na parte inferior para separar o título. */
+    border-bottom: 2px solid #3498db;
+    /* Adiciona um preenchimento abaixo da linha. */
+    padding-bottom: 10px;
+}
+
+/* Estilos para os subtítulos (h2). */
+h2 {
+    /* Define a cor dos subtítulos. */
+    color: #3498db;
+}
+
+/* Estilos para listas não ordenadas (ul). */
+ul {
+    /* Adiciona um recuo à esquerda para as listas. */
+    padding-left: 20px;
+}
